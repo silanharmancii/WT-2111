@@ -7,3 +7,22 @@
 li:hover{
     color: red;
 }
+#first-text::first-line{
+    background-color: paleturquoise;
+}
+#first-text::selection{
+    background-color: green;
+}
+#first-text::first-letter{
+    background: red;
+}
+::-webkit-scrollbar{
+    width: 30px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: red;
+    border-radius: 20px;
+}
+::-webkit-scrollbar-track{
+    background-color: blue;
+}
