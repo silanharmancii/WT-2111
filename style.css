@@ -1,0 +1,9 @@
+#vscode::marker{
+    content: "✅";
+}
+#js::marker{
+    content: "🚀";
+}
+li:hover{
+    color: red;
+}
